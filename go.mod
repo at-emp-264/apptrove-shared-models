@@ -3,7 +3,11 @@ module github.com/ApptroveLabs/apptrove-shared-models
 go 1.25.6
 
 require (
-	capnproto.org/go/capnp/v3 v3.1.0-alpha.2 // indirect
+	capnproto.org/go/capnp/v3 v3.1.0-alpha.2
+	go.mongodb.org/mongo-driver v1.17.9
+)
+
+require (
 	github.com/colega/zeropool v0.0.0-20230505084239-6fb4a4f75381 // indirect
 	golang.org/x/sync v0.20.0 // indirect
 )

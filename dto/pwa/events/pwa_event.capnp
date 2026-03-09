@@ -34,6 +34,6 @@ struct PWAEvent {
 }
 
 struct PWAEventMessage {
-    envelope @0 :Envelope;
-    body     @1 :PWAEvent;
+  envelope @0 :Envelope;
+  body     @1 :PWAEvent;
 }
