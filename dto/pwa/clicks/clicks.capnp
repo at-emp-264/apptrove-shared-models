@@ -1,4 +1,4 @@
-@0xe30d60fb3b9d849e;
+@0xfe44ff05f6d0280d;
 
 using Go = import "/go.capnp";
 using Envelope = import "../../common/envelope.capnp".Envelope;
@@ -16,7 +16,6 @@ struct PWAClick {
   headers @2 :List(Header);
   cuid    @3 :Text;
 }
-
 
 struct Click {
   envelope @0 :Envelope;
